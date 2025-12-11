@@ -31,4 +31,4 @@ jobs:
           tags: ${{ secrets.DOCKER_USER }}/netflix-clone:latest
 
       - name: Image digest
-        run: echo "Image pushed: ${{ secrets.DOCKER_USER }}/netflix-clone:latest"
+        run: echo Image pushed: ${{ secrets.DOCKER_USER }}/netflix-clone:latest
